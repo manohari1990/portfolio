@@ -8,6 +8,7 @@ const projects = [
       "Developed responsive ReactJS interface with REST API integration and built FastAPI-based backend APIs for core CRUD operations. Collaborated closely with the on-site team to address business requirements and provide regular project updates.",
     tags: ["React", "Python", "FastAPI", "Vercel", "PostgreSQL"],
     live: "https://embed2.chptr.com/a7a72837-3d5b-4a48-bbf7-8ef0a96d2981?lang=en",
+    github: ''
   },
   {
     title: "Quick Fix Golf (Mobile & Web)",
@@ -15,12 +16,14 @@ const projects = [
       "Developed scalable web and mobile applications including Quick Fix Golf, where I built interactive dashboards, chat systems, subscription workflows, and onboarding features using ReactJS, AWS Lambda, Python and Cognito authentication for secure and scalable architecture",
     tags: ["React", "Python", "AWS CodePipeline", "AWS CodeBuild", "AWS Lambda", "AWS API Gateway", "SQLAlchemy", "iOS App Store Connect"],
     live: "https://apps.apple.com/us/app/quickfixgolf/id1628697652",
+    github: ''
   },
   {
     title: "InsureAPP - Quote Management System",
     description:
       "Developing reusable modules and contributing during the initial stages of project setup and package structuring, while optimizing performance through efficient state management",
     tags: ["ReactJS", "API Integration", "NPM Package Creation"],
+    github: ''
   },
   {
     title: "Boca West Country Club",
@@ -28,12 +31,14 @@ const projects = [
       "Conducting impact analysis, providing accurate estimations, managing version control with SVN, and owning complete frontend development for web and mobile compatibility.",
     tags: ["CodeIgniter 3", "jQuery", "JavaScript", "API Integration", "Mobile Responsive"],
     live: "https://www.bocawestcc.org/",
+    github: ''
   },
   {
     title: "WordPress Websites",
     description:"",
     tags: [],
-    live: ""
+    live: "",
+    github: ''
   }
 ];
 
