@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 
 phases:
   install:
@@ -13,6 +13,7 @@ phases:
     commands:
       - echo building app..
       - npm run build
+      - npm test
     
   post_build:
     command:
@@ -24,4 +25,3 @@ phases:
 artifacts:
   files:
     - '**/*'
-    
