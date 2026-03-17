@@ -1,0 +1,27 @@
+version: 0.1
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo installing npm dependencies...
+      - rm -rf node_modules package-lock.json
+      - npm install
+  
+  build:
+    commands:
+      - echo building app..
+      - npm run build
+    
+  post_build:
+    command:
+      - echo deploying to s3...
+      - aws s3 sync dist/ s3://dev-fe-cicd-bucket-631534400893-us-east-1-an --delete
+      - echo invalidating cloudfront...
+      - aws cloudfront create-invalidation --distribution-id E31EIWO3L794MG --path "/*"
+  
+artifacts:
+  files:
+    - '**/*'
+    
