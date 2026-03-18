@@ -15,9 +15,9 @@ phases:
       - npm run build
     
   post_build:
-    command:
+    commands:
       - echo invalidating cloudfront...
-      - aws cloudfront create-invalidation --distribution-id ERXE95GJLM32J --path "/*"
+      - aws cloudfront create-invalidation --distribution-id ERXE95GJLM32J --paths "/*"
   
 artifacts:
   base-directory: dist
