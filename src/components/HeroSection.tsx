@@ -1,5 +1,5 @@
 import { FileDown, Github, Linkedin, Mail } from "lucide-react";
-import portraitImg from "../assets/profile-pic.png";
+import portraitImg from "../assets/profile-pic4.png";
 import resume from "../assets/Manohari_Webdev_9years.pdf"
 
 const HeroSection = () => {
@@ -13,10 +13,10 @@ const HeroSection = () => {
               Hello, I'm
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Manohari <span className="text-gradient">a Web Developer</span>
+              Manohari <span className="text-gradient">a Sr. Software Associate</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8">
-              Frontend-focused Web Developer with 9+ years of overall experience. Skilled in ReactJS
+              Frontend-focused Software Associate with 9+ years of overall experience. Skilled in ReactJS
             (3.5+ years), JavaScript, HTML, CSS, jQuery and WordPress, with backend experience in
             PHP (4+ years), Python (2+ years) and AWS integrations(1+ year). Experience in building
             responsive, high performance web applications and collaborating directly with clients to

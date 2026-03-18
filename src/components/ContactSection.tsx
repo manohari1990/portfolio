@@ -83,8 +83,8 @@ const ContactSection = () => {
           <ScrollReveal direction="right">
             <div className="flex flex-col justify-between h-full rounded-xl border border-border bg-card p-8">
               <div>
-                <h4 className="text-xl font-bold mb-3">Start a Conversation</h4>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-6">
+                <h4 className="text-xl font-bold mb-3">Have an Idea? Let’s Turn It Into Reality</h4>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                   Have a project in mind or looking for a senior engineer? Let's discuss how I can
                   help bring your ideas to life. I typically respond within 24 hours.
                 </p>
@@ -93,17 +93,17 @@ const ContactSection = () => {
                   <div className="flex items-start gap-3">
                     <Calendar size={18} className="text-primary mt-0.5 shrink-0" />
                     <div>
-                      <p className="text-sm font-medium">Schedule a Call</p>
-                      <p className="text-xs text-muted-foreground">
-                        Book a 30-minute discovery call to discuss your project requirements.
+                      <p className="text-lg font-medium">Schedule a Call</p>
+                      <p className="text-sm text-muted-foreground">
+                        Book a free 15-minute consultation to discuss your project, architecture, or scaling needs. No pressure — just clarity.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Send size={18} className="text-primary mt-0.5 shrink-0" />
                     <div>
-                      <p className="text-sm font-medium">Quick Message</p>
-                      <p className="text-xs text-muted-foreground">
+                      <p className="text-lg font-medium">Quick Message</p>
+                      <p className="text-sm text-muted-foreground">
                         Drop me an email with your project details and I'll get back to you ASAP.
                       </p>
                     </div>
@@ -113,20 +113,20 @@ const ContactSection = () => {
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="mailto:hello@example.com"
+                  href="mailto:manu.manohari90@gmail.com"
                   className="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-primary px-6 text-sm font-semibold text-primary-foreground transition-all hover:opacity-90 glow"
                 >
                   <Mail size={18} />
                   Send an Email
                 </a>
                 <a
-                  href="https://calendly.com"
+                  href="https://calendly.com/manu-manohari90/free-15-min-consultation"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex h-12 items-center justify-center gap-2 rounded-lg border border-border bg-secondary px-6 text-sm font-semibold text-secondary-foreground transition-all hover:bg-muted"
                 >
                   <Calendar size={18} />
-                  Book a Call
+                  Book Free Consultation
                 </a>
               </div>
             </div>

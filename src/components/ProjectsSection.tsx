@@ -15,7 +15,7 @@ const projects = [
     description:
       "Developed scalable web and mobile applications including Quick Fix Golf, where I built interactive dashboards, chat systems, subscription workflows, and onboarding features using ReactJS, AWS Lambda, Python and Cognito authentication for secure and scalable architecture",
     tags: ["React", "Python", "AWS CodePipeline", "AWS CodeBuild", "AWS Lambda", "AWS API Gateway", "SQLAlchemy", "iOS App Store Connect"],
-    live: "https://apps.apple.com/us/app/quickfixgolf/id1628697652",
+    live: "https://play.google.com/store/apps/details?id=webviewgold.quickfixgolf",
     github: ''
   },
   {
@@ -35,8 +35,8 @@ const projects = [
   },
   {
     title: "WordPress Websites",
-    description:"",
-    tags: [],
+    description:"Biosell Solutions, \n Matt Manero – Commercial Fleet Financing, \n CA Ripped Fitness, \n MJ’s Cafe & Bakery, \n Platypus Wine Tours",
+    tags: ["WordPress", "Website Migration", "Advanced Custom Field", "Custom Post Types", "Domain Setup", "Hosting Configuration"],
     live: "",
     github: ''
   }
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
                     )}
                   </div>
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4" style={{ whiteSpace: "pre-line" }}>
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
