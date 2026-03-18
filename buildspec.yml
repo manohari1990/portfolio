@@ -17,9 +17,9 @@ phases:
   post_build:
     command:
       - echo deploying to s3...
-      - aws s3 sync dist/ s3://dev-fe-cicd-bucket-631534400893-us-east-1-an --delete
+      - aws s3 sync dist/ s3://manohari-portfolio --delete
       - echo invalidating cloudfront...
-      - aws cloudfront create-invalidation --distribution-id E31EIWO3L794MG --path "/*"
+      - aws cloudfront create-invalidation --distribution-id ERXE95GJLM32J --path "/*"
   
 artifacts:
   files:
