@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import resume from "../assets/Manohari_Webdev_9years.pdf"
+import logo from "../assets/mg-logo.png"
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -15,8 +16,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
       <div className="container flex h-16 items-center justify-between">
-        <a href="#" className="font-mono text-lg font-semibold tracking-tight text-primary">
-          {"<dev />"}
+        <a href="/" className="font-mono text-lg font-semibold tracking-tight text-primary">
+          <img src={logo} width={150}/>
         </a>
 
         {/* Desktop */}
