@@ -20,7 +20,4 @@ phases:
       - aws s3 sync dist/ s3://manohari-portfolio --delete
       - echo invalidating cloudfront...
       - aws cloudfront create-invalidation --distribution-id ERXE95GJLM32J --path "/*"
-  
-artifacts:
-  files:
-    - '**/*'
+      
