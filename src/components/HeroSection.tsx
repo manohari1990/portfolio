@@ -15,8 +15,8 @@ const HeroSection = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Manohari <span className="text-gradient">a Sr. Software Associate</span>
             </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8">
-             Frontend-focused Software Associate with 9+ years of experience building responsive, high-performance web applications. Skilled in ReactJS (2+ years), JavaScript, HTML, CSS, jQuery, and WordPress, with backend expertise in PHP, Python, and AWS integrations. <br />Experienced in direct client communication, translating requirements into scalable solutions. <br /> Quick to adapt to new technologies and leverage AI tools to deliver efficient, industry-standard results. Known for meeting deadlines with quality and precision. <br />A strong team player who also excels as an independent contributor, taking ownership and ensuring successful project delivery from concept to completion.
+            <p className="text-[19px] text-foreground leading-relaxed max-w-lg mb-8">
+             Frontend-focused Software Associate with <strong>9+ years</strong> of experience building responsive, high-performance web applications. Skilled in ReactJS (2+ years), JavaScript, HTML, CSS, jQuery, and WordPress, with backend expertise in PHP, Python, and AWS integrations. <br /> <br />Experienced in direct <strong>client communication</strong>, translating requirements into scalable solutions. <br /> Quick to <strong>adapt to new technologies</strong> and leverage AI tools to deliver efficient, industry-standard results. Known for meeting deadlines with quality and precision. <br />A strong <strong>team player</strong> who also excels as an <strong>independent contributor</strong>, taking ownership and ensuring successful project delivery from concept to completion.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-10">
