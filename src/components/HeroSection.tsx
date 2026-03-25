@@ -1,6 +1,6 @@
 import { FileDown, Github, Linkedin, Mail } from "lucide-react";
 import portraitImg from "../assets/profile-pic4.png";
-import resume from "../assets/Manohari_Webdev_9years.pdf"
+import resume from "../assets/resume.pdf"
 
 const HeroSection = () => {
   return (
@@ -16,11 +16,7 @@ const HeroSection = () => {
               Manohari <span className="text-gradient">a Sr. Software Associate</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8">
-              Frontend-focused Software Associate with 9+ years of overall experience. Skilled in ReactJS
-            (3.5+ years), JavaScript, HTML, CSS, jQuery and WordPress, with backend experience in
-            PHP (4+ years), Python (2+ years) and AWS integrations(1+ year). Experience in building
-            responsive, high performance web applications and collaborating directly with clients to
-            deliver scalable solutions.
+             Frontend-focused Software Associate with 9+ years of experience building responsive, high-performance web applications. Skilled in ReactJS (2+ years), JavaScript, HTML, CSS, jQuery, and WordPress, with backend expertise in PHP, Python, and AWS integrations. <br />Experienced in direct client communication, translating requirements into scalable solutions. <br /> Quick to adapt to new technologies and leverage AI tools to deliver efficient, industry-standard results. Known for meeting deadlines with quality and precision. <br />A strong team player who also excels as an independent contributor, taking ownership and ensuring successful project delivery from concept to completion.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-10">

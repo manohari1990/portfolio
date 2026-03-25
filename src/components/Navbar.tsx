@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import resume from "../assets/Manohari_Webdev_9years.pdf"
+import resume from "../assets/resume.pdf"
 import logo from "../assets/mg-logo.png"
 
 const navLinks = [
