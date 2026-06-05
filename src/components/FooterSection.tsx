@@ -5,7 +5,7 @@ const FooterSection = () => (
     <div className="container text-center">
       <img src={logo} width={150} style={{display:"inline"}}/>
       <p className="text-sm text-muted-foreground mt-2">
-        © {new Date().getFullYear()} Manohari Gara. Built with React & Tailwind CSS and powered by AWS CI/CD.
+        © {new Date().getFullYear()} Manohari Gara. Built with React & Tailwind CSS. Deployed on AWS.
       </p>
     </div>
   </footer>

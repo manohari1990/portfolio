@@ -3,6 +3,14 @@ import ScrollReveal from "./ScrollReveal";
 
 const projects = [
   {
+    title: "Cloud-Native GenAI Orchestration Platform",
+    description:
+      "Built a production-grade FastAPI engine integrating Google GenAI structured outputs with cloud-backed session persistence. Implemented secure multi-modal file workflows and established automated container deployment to manage high-availability scaling.",
+    tags: ["FastAPI", "Google GenAI SDK", "Docker", "GitHub Actions", "AWS ECR", "AWS Lambda", "Amazon S3" ],
+    live: "https://si3xx7xzluvvs7p5iegkg7cge40xoznd.lambda-url.us-east-1.on.aws/docs", 
+    github: "https://github.com/manohari1990/artisanflow-be"
+  },
+  {
     title: "CHPTR.COM - Embed 2.0",
     description:
       "Developed responsive ReactJS interface with REST API integration and built FastAPI-based backend APIs for core CRUD operations. Collaborated closely with the on-site team to address business requirements and provide regular project updates.",
