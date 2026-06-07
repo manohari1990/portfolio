@@ -1,6 +1,6 @@
 import { FileDown, Github, Linkedin, Mail } from "lucide-react";
 import portraitImg from "../assets/profile-pic4.png";
-import resume from "../assets/resume.pdf"
+import resume from "../assets/Manohari_Gara_Resume.pdf"
 
 const HeroSection = () => {
   return (
