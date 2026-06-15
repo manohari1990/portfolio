@@ -6,8 +6,7 @@ import logo from "../assets/mg-logo.png"
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "Location", href: "#location" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "#contact" }
 ];
 
 const Navbar = () => {
