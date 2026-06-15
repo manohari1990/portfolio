@@ -2,12 +2,12 @@ import ScrollReveal from "./ScrollReveal";
 
 const experiences = [
   {
-    role: "Sr. Software Associate - L3 | Junior Lead",
+    role: "Sr. Software Associate - L3",
     company: "Yotta TechPorts Inc. | Hyderabad",
     period: "Oct 2021 — Dec 2025",
     description:
-      "Collaborated directly with clients to gather requirements and deliver scalable web and mobile applications using ReactJS, including interactive dashboards and performance tracking solutions. Built and integrated secure backend services using AWS Lambda, REST APIs, and Python, and automated frontend deployment to the cloud.",
-    highlights: ["React JS", "Python", "FastAPI", "Git", "CloudFront CI/CD", "Vercel", "AWS Lambda", "API Gateway"],
+      "Collaborated directly with clients to gather requirements and deliver scalable web and mobile applications using ReactJS, including interactive dashboards and performance tracking solutions. Built and integrated secure backend services using AWS Lambda, REST APIs, and automated frontend deployment to the cloud.",
+    highlights: ["React JS", "Git", "CloudFront CI/CD", "Vercel", "AWS Lambda", "API Gateway"],
   },
   {
     role: "Software Engineer (PHP)",
@@ -15,23 +15,7 @@ const experiences = [
     period: "Sep 2019 — Sep 2021",
     description:
       "Developed end-to-end frontend development using PHP, jQuery, JSON and AJAX, ensuring seamless functionality for web applications.",
-    highlights: ["PHP", "CodeIgniter", "API Integration", "Cross-Browser Compatibility"],
-  },
-  {
-    role: "PHP Developer",
-    company: "eProSoft India | Visakhapatnam",
-    period: "Oct 2018 – Sep 2019",
-    description:
-      "Worked extensively on WordPress and WooCommerce websites, building and customizing themes and plugins. ",
-    highlights: ["PHP", "MySql", "WordPress", "Hosting Websites"],
-  },
-  {
-    role: "WordPress & PHP Developer",
-    company: "Ayatas Technologies | Visakhapatnam",
-    period: "Mar 2015 – Feb 2018",
-    description:
-      "Delivered 12+ client projects including e-commerce platforms and CMS solutions. Collaborated directly with designers and stakeholders.",
-    highlights: ["JavaScript", "jQuery", "PHP", "WordPress"],
+    highlights: ["PHP", "WordPress Development", "API Integration", "Cross-Browser Compatibility"],
   },
 ];
 

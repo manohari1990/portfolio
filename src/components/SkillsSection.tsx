@@ -1,12 +1,12 @@
 import ScrollReveal from "./ScrollReveal";
 
 const skills = [
-  { category: "Frontend", items: ["ReactJS", "Redux", "JavaScript (ES6+)", "Tailwind CSS", "Bootstrap"] },
-  { category: "Backend", items: ["API Development", "Python", "PHP", "PostgreSQL", "MySQL"] },
-  { category: "Cloud & DevOps", items: ["AWS Lambda", "AWS CI/CD", "EC2", "Docker", "Git", "Vercel"] },
-  { category: "Tools", items: ["Figma", "Google Analytics", "VS Code"] },
-  { category: "CRM & CMS", items: ["WordPress", "Woo-Commerce", "GoHighLevel"] },
-  { category: "Deployments & Hosting", items: ["App Store Connect", "GoDaddy", "Hostinger"] }
+  { category: "Frontend", items: ["ReactJS", "JavaScript", "Tailwind CSS"] },
+  { category: "Backend", items: ["API Development", "PHP", "MySQL"] },
+  { category: "Cloud & DevOps", items: ["AWS Lambda", "AWS CI/CD", "Git", "Vercel"] },
+  { category: "Tools", items: ["Figma", "Google Analytics"] },
+  { category: "CRM & CMS", items: ["WordPress", "GoHighLevel"] },
+  { category: "Deployments & Hosting", items: ["GoDaddy", "Hostinger"] }
 ];
 
 const SkillsSection = () => {

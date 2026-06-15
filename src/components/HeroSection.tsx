@@ -1,6 +1,6 @@
 import { FileDown, Github, Linkedin, Mail } from "lucide-react";
 import portraitImg from "../assets/profile-pic4.png";
-import resume from "../assets/Manohari_Gara_Resume.pdf"
+import resume from "../assets/manohari-aus-resume.pdf"
 
 const HeroSection = () => {
   return (
@@ -15,8 +15,8 @@ const HeroSection = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Manohari <span className="text-gradient">a Sr. Software Associate</span>
             </h1>
-            <p className="text-[19px] text-foreground leading-relaxed max-w-lg mb-8">
-             Frontend-focused Software Associate with <strong>9+ years</strong> of experience building responsive, high-performance web applications. Skilled in ReactJS (2+ years), JavaScript, HTML, CSS, jQuery, and WordPress, with backend expertise in PHP, Python, and AWS integrations. <br /> <br />Experienced in direct <strong>client communication</strong>, translating requirements into scalable solutions. <br /> Quick to <strong>adapt to new technologies</strong> and leverage AI tools to deliver efficient, industry-standard results. Known for meeting deadlines with quality and precision. <br />A strong <strong>team player</strong> who also excels as an <strong>independent contributor</strong>, taking ownership and ensuring successful project delivery from concept to completion.
+            <p className="text-[16px] text-foreground leading-relaxed max-w-lg mb-8">
+             Detail-oriented Senior Web and Frontend Developer with extensive professional experience across the WordPress ecosystem, headless CMS architectures, and modern JavaScript frameworks. Proven expertise in building high-performance Headless WordPress platforms using React.js and Next.js, creating responsive interfaces from Figma designs, and optimizing websites for Core Web Vitals and technical SEO. Skilled in deploying frontend applications using cloud-based CI/CD pipelines and integrating frontend user interfaces with underlying cloud infrastructure, including supporting microservices (AWS Lambda using Python) via API Gateways. Committed to maintaining strict standards for clean code, security, and long-term maintainability while collaborating closely with cross-functional marketing, design, and operations teams to deliver commercially effective digital assets.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-10">

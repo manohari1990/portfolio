@@ -2,19 +2,19 @@ import { ExternalLink, Github } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
 const projects = [
-  {
-    title: "Cloud-Native GenAI Orchestration Platform",
-    description:
-      "Built a production-grade FastAPI engine integrating Google GenAI structured outputs with cloud-backed session persistence. Implemented secure multi-modal file workflows and established automated container deployment to manage high-availability scaling.",
-    tags: ["FastAPI", "Google GenAI SDK", "Docker", "GitHub Actions", "AWS ECR", "AWS Lambda", "Amazon S3" ],
-    live: "https://si3xx7xzluvvs7p5iegkg7cge40xoznd.lambda-url.us-east-1.on.aws/docs", 
-    github: "https://github.com/manohari1990/artisanflow-be"
-  },
+  // {
+  //   title: "Cloud-Native GenAI Orchestration Platform",
+  //   description:
+  //     "Built a production-grade FastAPI engine integrating Google GenAI structured outputs with cloud-backed session persistence. Implemented secure multi-modal file workflows and established automated container deployment to manage high-availability scaling.",
+  //   tags: ["FastAPI", "Google GenAI SDK", "Docker", "GitHub Actions", "AWS ECR", "AWS Lambda", "Amazon S3" ],
+  //   live: "https://si3xx7xzluvvs7p5iegkg7cge40xoznd.lambda-url.us-east-1.on.aws/docs", 
+  //   github: "https://github.com/manohari1990/artisanflow-be"
+  // },
   {
     title: "CHPTR.COM - Embed 2.0",
     description:
       "Developed responsive ReactJS interface with REST API integration and built FastAPI-based backend APIs for core CRUD operations. Collaborated closely with the on-site team to address business requirements and provide regular project updates.",
-    tags: ["React", "Python", "FastAPI", "Vercel", "PostgreSQL"],
+    tags: ["React", "AWS Lambda", "AWS API Gateway", "Vercel"],
     live: "https://embed2.chptr.com/a7a72837-3d5b-4a48-bbf7-8ef0a96d2981?lang=en",
     github: ''
   },
@@ -22,7 +22,7 @@ const projects = [
     title: "Quick Fix Golf (Mobile & Web)",
     description:
       "Developed scalable web and mobile applications including Quick Fix Golf, where I built interactive dashboards, chat systems, subscription workflows, and onboarding features using ReactJS, AWS Lambda, Python and Cognito authentication for secure and scalable architecture",
-    tags: ["React", "Python", "AWS CodePipeline", "AWS CodeBuild", "AWS Lambda", "AWS API Gateway", "SQLAlchemy", "iOS App Store Connect"],
+    tags: ["React JS", "CI/CD Deployment", "AWS Lambda", "AWS API Gateway", "iOS App Store Connect"],
     live: "https://play.google.com/store/apps/details?id=webviewgold.quickfixgolf",
     github: ''
   },
@@ -37,14 +37,14 @@ const projects = [
     title: "Boca West Country Club",
     description:
       "Conducting impact analysis, providing accurate estimations, managing version control with SVN, and owning complete frontend development for web and mobile compatibility.",
-    tags: ["CodeIgniter 3", "jQuery", "JavaScript", "API Integration", "Mobile Responsive"],
+    tags: ["WordPress", "Mobile Responsive", "JavaScript", "API Integration"],
     live: "https://www.bocawestcc.org/",
     github: ''
   },
   {
     title: "WordPress Websites",
     description:"Biosell Solutions, \n Matt Manero – Commercial Fleet Financing, \n CA Ripped Fitness, \n MJ’s Cafe & Bakery, \n Platypus Wine Tours",
-    tags: ["WordPress", "Website Migration", "Advanced Custom Field", "Custom Post Types", "Domain Setup", "Hosting Configuration"],
+    tags: ["WordPress", "Website Management & Security", "DNS Setup", "Hosting"],
     live: "",
     github: ''
   }
