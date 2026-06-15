@@ -22,7 +22,7 @@ const projects = [
     title: "Quick Fix Golf (Mobile & Web)",
     description:
       "Developed scalable web and mobile applications including Quick Fix Golf, where I built interactive dashboards, chat systems, subscription workflows, and onboarding features using ReactJS, AWS Lambda, Python and Cognito authentication for secure and scalable architecture",
-    tags: ["React JS", "CI/CD Deployment", "AWS Lambda", "AWS API Gateway", "iOS App Store Connect"],
+    tags: ["WordPress", "React JS", "CI/CD Deployment", "AWS Lambda", "API Gateway"],
     live: "https://play.google.com/store/apps/details?id=webviewgold.quickfixgolf",
     github: ''
   },
@@ -37,7 +37,7 @@ const projects = [
     title: "Boca West Country Club",
     description:
       "Conducting impact analysis, providing accurate estimations, managing version control with SVN, and owning complete frontend development for web and mobile compatibility.",
-    tags: ["WordPress", "Mobile Responsive", "JavaScript", "API Integration"],
+    tags: ["WordPress", "Mobile Responsive", "JavaScript", "API Integration", "Website Maintainance"],
     live: "https://www.bocawestcc.org/",
     github: ''
   },
