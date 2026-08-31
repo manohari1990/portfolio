@@ -13,7 +13,7 @@ const projects = [
   {
     title: "CHPTR.COM - Embed 2.0",
     description:
-      "Developed responsive ReactJS interface with REST API integration and built FastAPI-based backend APIs for core CRUD operations. Collaborated closely with the on-site team to address business requirements and provide regular project updates.",
+      "Developed responsive ReactJS interface with REST API integration and built ExpressJS-based backend APIs for core CRUD operations. Collaborated closely with the on-site team to address business requirements and provide regular project updates.",
     tags: ["React", "AWS Lambda", "AWS API Gateway", "Vercel"],
     live: "https://embed2.chptr.com/a7a72837-3d5b-4a48-bbf7-8ef0a96d2981?lang=en",
     github: ''
