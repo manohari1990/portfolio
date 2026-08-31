@@ -1,6 +1,6 @@
 import { FileDown, Github, Linkedin, Mail } from "lucide-react";
 import portraitImg from "../assets/profile-pic4.png";
-import resume from "../assets/manohari-aus-resume.pdf"
+import resume from "../assets/manohari-9yrs-React.pdf"
 
 const HeroSection = () => {
   return (
@@ -16,7 +16,7 @@ const HeroSection = () => {
               Manohari <span className="text-gradient">a Sr. Software Associate</span>
             </h1>
             <p className="text-[16px] text-foreground leading-relaxed max-w-lg mb-8">
-             Detail-oriented Senior Web and Frontend Developer with extensive professional experience across the WordPress ecosystem, headless CMS architectures, and modern JavaScript frameworks. Proven expertise in building high-performance Headless WordPress platforms using React.js and Next.js, creating responsive interfaces from Figma designs, and optimizing websites for Core Web Vitals and technical SEO. Skilled in deploying frontend applications using cloud-based CI/CD pipelines and integrating frontend user interfaces with underlying cloud infrastructure, including supporting microservices (AWS Lambda using Python) via API Gateways. Committed to maintaining strict standards for clean code, security, and long-term maintainability while collaborating closely with cross-functional marketing, design, and operations teams to deliver commercially effective digital assets.
+              Detail-oriented Full Stack Engineer experienced in building scalable web applications using React.js, JavaScript, Express.js, REST APIs, and Tailwind CSS. Skilled in developing responsive UIs, backend services, authentication, API integrations, and database-driven workflows. Experienced with AWS deployments, code reviews, CI practices, and delivering maintainable, user-centric applications from requirements through production.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-10">
