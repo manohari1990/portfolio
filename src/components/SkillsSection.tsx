@@ -2,8 +2,8 @@ import ScrollReveal from "./ScrollReveal";
 
 const skills = [
   { category: "Frontend", items: ["ReactJS", "JavaScript", "Tailwind CSS"] },
-  { category: "Backend", items: ["API Development", "PHP", "MySQL"] },
-  { category: "Cloud & DevOps", items: ["AWS Lambda", "AWS CI/CD", "Git", "Vercel"] },
+  { category: "Backend", items: ["Node/Express JS", "API Development", "OAuth 2.0", "MySQL"] },
+  { category: "Cloud & DevOps", items: ["AWS Lambda", "AWS CI/CD", "Elastic Beanstalk", "EC2", "GitHub"] },
   { category: "Tools", items: ["Figma", "Google Analytics"] },
   { category: "CRM & CMS", items: ["WordPress", "GoHighLevel"] },
   { category: "Deployments & Hosting", items: ["GoDaddy", "Hostinger"] }
