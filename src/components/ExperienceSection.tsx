@@ -6,16 +6,24 @@ const experiences = [
     company: "Yotta TechPorts Inc. | Hyderabad",
     period: "Oct 2021 — Dec 2025",
     description:
-      "Collaborated directly with clients to gather requirements and deliver scalable web and mobile applications using ReactJS, including interactive dashboards and performance tracking solutions. Built and integrated secure backend services using AWS Lambda, REST APIs, and automated frontend deployment to the cloud.",
-    highlights: ["React JS", "Git", "CloudFront CI/CD", "Vercel", "AWS Lambda", "API Gateway"],
+      "Implemented core backend auth and API for GitHub/Google OAuth and native authentication, implemented JWT sessions to achieve secure the authorised API call, and locked down the database using custom security groups and SSH-only tunneling. Led technical walkthroughs for clients, translating business needs into straightforward frontend specs and recommending pragmatic tech choices. Automated deployments for both frontend & backend.",
+    highlights: ["React JS", "Node.JS", "Git", "CI/CD", "Vercel", "AWS Lambda", "API Gateway", "CloudFront"],
   },
   {
     role: "Software Engineer (PHP)",
     company: "CSS India Center Pvt. Ltd | Hyderabad",
     period: "Sep 2019 — Sep 2021",
     description:
-      "Developed end-to-end frontend development using PHP, jQuery, JSON and AJAX, ensuring seamless functionality for web applications.",
+      "Developed end-to-end frontend development using PHP, jQuery, JSON and AJAX, ensuring seamless functionality for web applications. Managed everyday hosting and launch operations—migrated sites via cPanel, updated DNS zone files (A, CNAME, MX), installed SSL certs, and monitored live deployments.",
     highlights: ["PHP", "WordPress Development", "API Integration", "Cross-Browser Compatibility"],
+  },
+  {
+    role: "PHP Developer",
+    company: "Ayatas Technologies | Hyderabad",
+    period: "Mar 2015 — Apr 2018",
+    description:
+      "As a Jr Developer, developed pixel-perfect website themes from scratch using WordPress, MySQL and jQuery. Implemented custom hooks for calculations, data filtering etc.",
+    highlights: ["PHP", "WordPress", "jQuery", "Theme Development"],
   },
 ];
 
